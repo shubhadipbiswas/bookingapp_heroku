@@ -35,7 +35,7 @@ else:
     st.write('Awaiting CSV file to be uploaded.')
 try:
     #input_df = pd.read_csv(input_file)
-    raw = pd.read_csv('https://raw.githubusercontent.com/shubhadipbiswas/Classification_heroku/master/Booking_Classification.csv')
+    raw = pd.read_csv('https://raw.githubusercontent.com/shubhadipbiswas/bookingapp_heroku/master/Booking_Classification.csv')
     input_1 = raw.drop(columns=['Booking_Cancelled'], axis=1)
     target = ['Booking_Cancelled']
     zeroencode = ['Hotel_Type','Boarding','Booking_Mode','Booking_Channel','Cat_Type1','Cat_Type2','deposit_type','customer_type']
