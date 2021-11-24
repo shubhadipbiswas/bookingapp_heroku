@@ -9,8 +9,7 @@ import datetime
 import numpy as np
 from datetime import date
 from sklearn import preprocessing
-import imblearn
-from imblearn.over_sampling import SMOTE
+
 import warnings
 warnings.filterwarnings("ignore")
 
